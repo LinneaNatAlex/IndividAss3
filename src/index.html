@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="./style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+        <title>Quiz App</title>
+    </head>
+    <body>
+        <div class="main__container">
+            <div class="question__container">
+                <h2 class="question">This is where the quiz will be!</h2>
+                <div class="score"></div>
+                <ul>
+                    <li>
+                        <input type="radio" name="answer" id="answer1" class="answers">
+                        <label for="answer1" id="opt1"> Answere Option</label>
+                    </li>
+                    <li>
+                        <input type="radio" name="answer" id="answer2" class="answers">
+                        <label for="answer2" id="opt2"> Answere Option</label>
+                    </li>
+                    <li>
+                        <input type="radio" name="answer" id="answer3" class="answers">
+                        <label for="answer3" id="opt3"> Answere Option</label>
+                    </li>
+                    <li>
+                        <input type="radio" name="answer" id="answer4" class="answers">
+                        <label for="answer4" id="opt4"> Answere Option</label>
+                    </li>
+                </ul>
+                <button id="next"> Next </button>
+                
+                <div id="finalScore" class="final__score"></div>
+                <button id="restart">Try Aigan!</button>
+                <button id="review"> Review</button>
+            </div>
+        </div>
+        <script src="script.js" defer></script>
+    </body>
+</html>
