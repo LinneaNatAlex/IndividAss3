@@ -5,63 +5,63 @@ const quizContainer = [
         b: "Severus Snape",
         c: "Sirius Black",
         d: "Victor Dudly",
-        fa: "answer3"
+        correct: "answer3"
     },
     {
-        question : "Question2: Here",
-        a: "her em det noe",
-        b: "her er det noe",
-        c: "her er det noe",
-        d: "her er det noe",
-        fa: "answer2"
+        question : "Question2: what color is associated with Gryffindor",
+        a: "green",
+        b: "red",
+        c: "blue",
+        d: "yellow",
+        correct: "answer2"
     },
     {
-        question : "Question3: Here",
-        a: "her er det noe",
-        b: "her hem det noe",
-        c: "her er det noe",
-        d: "her er det noe",
-        fa: "answer2"
+        question : "Question3: Who is the youngest Weasly",
+        a: "Ron",
+        b: "Giny",
+        c: "Bill",
+        d: "Percy",
+        correct: "answer2"
     },
     {
-        question : "Question4: Here",
-        a: "her er det noe",
-        b: "her er det noe",
-        c: "her er det noe",
-        d: "her er det noe",
-        fa: "answer1"
+        question : "Question4: What's the name of Rons rat",
+        a: "Scabbers",
+        b: "Pumpkin",
+        c: "Dobby",
+        d: "Aragog",
+        correct: "answer1"
     },
     {
-        question : "Question5: Here",
-        a: "her er det noe",
-        b: "her er det noe",
-        c: "her er det noe",
-        d: "her er det noe",
-        fa: "answer4"
+        question : "Question5: Who did Hermione bring to the yule ball",
+        a: "Ron",
+        b: "Draco",
+        c: "Dumbeldoor",
+        d: "Viktor",
+        correct: "answer4"
     },
     {
-        question : "Question6: Here",
-        a: "her er det noe",
-        b: "her er det noe",
-        c: "her er det noe",
-        d: "her er det noe",
-        fa: "answer3"
+        question : "Question6: What broomstick modell did Harry get hes first year",
+        a: "Lightningbolt",
+        b: "Nimbus 2001",
+        c: "Nimbus 2000",
+        d: "Firebolt",
+        correct: "answer3"
     },
     {
-        question : "Question7: Here",
-        a: "her er det noe",
-        b: "her er det noe",
-        c: "her er det noe",
-        d: "her er det noe",
-        fa: "answer2"
+        question : "Question7: What is he-who-must-not-be-named's birth name?",
+        a: "Tom Robin Voldemort",
+        b: "Tom Marvolo Riddle",
+        c: "Lorde Voldemort",
+        d: "Salasar Slytherin",
+        correct: "answer2"
     },
     {
-        question : "Question8: Here",
-        a: "her er det noe",
-        b: "her er det noe",
-        c: "her er det noe",
-        d: "her er det noe",
-        fa: "answer1"
+        question : "Question8: What is it that is hidden in the Chambre of secrets",
+        a: "Baislisk",
+        b: "Diamons",
+        c: "Mermaids",
+        d: "Hagrid",
+        correct: "answer1"
     },
     
 ];
@@ -111,7 +111,7 @@ const getCheckAnswere = () => {
 
 next.addEventListener('click', ()=>{
     const checkAnswere = getCheckAnswere();
-    if(checkAnswere === quizContainer [questionIndex].fa){
+    if(checkAnswere === quizContainer [questionIndex].correct){
         score++;
     };
 
@@ -145,6 +145,8 @@ restart.addEventListener('click', ()=>{
     fetchQuestion();
     
 });
+
+
 
 
 
