@@ -37,3 +37,7 @@ This content has been generated partley by [ChatGpt](https://chatgpt.com/)
 
 # Contact 
 [linnea.n.a.s.hetty@outlook.com]
+
+# Link
+Github: (git@github.com:LinneaNatAlex/IndividAss3.git)
+Netlify: (https://individaass3.netlify.app)
